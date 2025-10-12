@@ -9,8 +9,8 @@
 
 /* Ужать сам футер, чтобы не оставался пустой зазор */
  .l-footer {
-    padding: 2 !important;
-    margin: 2 !important;
+    padding: 4px;
+    margin: 0 !important;
     min-height: 0 !important;
     border: 0 !important;
 }
