@@ -1,9 +1,1 @@
-/* Скрыть служебные подписи в футере на странице профиля */
-body#profiles_show .l-footer .copyright,
-body#profiles_show .l-footer .links,
-body#profiles_show .l-footer .b-to-top,
-body#profiles_show .l-footer .b-shade,
-body#profiles_show .l-footer:before {
-    display: none !important;
-}
-
+1
