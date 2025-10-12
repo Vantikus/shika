@@ -1,0 +1,16 @@
+/* Скрыть служебные подписи в футере на странице профиля */
+body#profiles_show .l-footer .copyright,
+body#profiles_show .l-footer .links,
+body#profiles_show .l-footer .b-to-top,
+body#profiles_show .l-footer .b-shade,
+body#profiles_show .l-footer:before {
+    display: none !important;
+}
+
+/* Ужать сам футер, чтобы не оставался пустой зазор */
+body#profiles_show .l-footer {
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    border: 0 !important;
+}
