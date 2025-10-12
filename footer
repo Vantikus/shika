@@ -7,10 +7,3 @@ body#profiles_show .l-footer:before {
     display: none !important;
 }
 
-/* Ужать сам футер, чтобы не оставался пустой зазор */
-body#profiles_show .l-footer {
-    padding: 2 !important;
-    margin: 2 !important;
-    min-height: 0 !important;
-    border: 0 !important;
-}
