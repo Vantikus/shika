@@ -26,3 +26,14 @@ header .b-breadcrumbs {
   /* полностью скрываем блок крошек */
   display: none !important;
 }
+
+/* Отключает слева кнопке репорт багов и на верх страницы */
+.b-to-top .slide {
+  display: none !important;
+}
+.b-to-top {
+  display: none !important;
+}
+body[data-locale] .b-feedback>.marker-positioner {
+  display: none !important;
+}
