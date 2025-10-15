@@ -80,5 +80,12 @@
   /* Поиск(лупа)  */
 .l-top_menu-v2 .global-search .search-marker::before    {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0Ij48IS0tIEljb24gZnJvbSBTb2xhciBieSA0ODAgRGVzaWduIC0gaHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC8gLS0+PGRlZnM+PG1hc2sgaWQ9IlNWRzVxRnRIZGdNIj48ZyBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9IjEuNSI+PGNpcmNsZSBjeD0iMTEuNSIgY3k9IjExLjUiIHI9IjkuNSIgc3Ryb2tlPSJncmF5Ii8+PHBhdGggc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIGQ9Im0yMCAyMGwyIDIiLz48L2c+PC9tYXNrPjwvZGVmcz48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMCAwaDI0djI0SDB6IiBtYXNrPSJ1cmwoI1NWRzVxRnRIZGdNKSIvPjwvc3ZnPg==) !important;
+  content: '' !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  display: inline-block !important;
+  width: 24px !important;
+  height: 24px !important;
   vertical-align: top !important;
 }
