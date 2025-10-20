@@ -1,0 +1,20 @@
+/* логотип: подсветка только при ховере на сам логотип */
+.l-top_menu-v2 .logo-container .glyph{
+  filter:brightness(80%);
+  transition:filter .2s ease-in-out;
+}
+/* отменяем подсветку от hover всего хедера */
+.l-top_menu-v2:hover .logo-container .glyph{
+  filter:brightness(80%) !important;
+}
+/* правильное поведение */
+.l-top_menu-v2 .logo-container:hover .glyph,
+.l-top_menu-v2 .logo-container:focus-within .glyph{
+  filter:brightness(100%) !important;
+}
+
+/* Логотип (desktop) */
+@media (min-width:768px){
+  .l-top_menu-v2 .logo-container{ padding:0 16px; margin-right:24px }
+}
+
