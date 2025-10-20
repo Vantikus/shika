@@ -45,6 +45,3 @@
   .p-profiles .profile-content .block{border-radius:14px;overflow:hidden}
 }
 
-@media (min-width:768px){
-  .l-top_menu-v2 .logo-container{ padding:0 16px; margin-right:24px }
-}
